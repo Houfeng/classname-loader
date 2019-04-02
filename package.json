@@ -1,0 +1,19 @@
+{
+  "name": "classname-loader",
+  "version": "0.1.0",
+  "description": "Automatically handles class name prefixes",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "dn $ clean && dn test && dn build -e prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "ntils": "^2.1.2"
+  },
+  "devDependencies": {
+    "dn-middleware-shell": "^1.1.0",
+    "dn-middleware-webpack": "^1.11.5"
+  }
+}

@@ -1,0 +1,21 @@
+init:
+  - name: tnpm-install
+  - name: pkginfo
+
+dev:
+  - name: webpack
+    entry: ./demo/*.js
+
+build:
+  - name: shell
+    script:
+      - dn dev
+
+test:
+  - name: lint
+  - name: unit
+
+publish:
+  - name: shell
+    script:
+      - tnpm pu 
